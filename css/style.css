@@ -1,0 +1,18 @@
+/* CSS Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header settings */
+header{
+    background-color: black;
+    width: auto;
+    height: 150px;
+}
+/* Logo nel header */
+.logo{
+    width: 150px;
+    height: 150px;
+}
