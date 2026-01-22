@@ -7,12 +7,40 @@
 
 /* header settings */
 header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     background-color: black;
     width: auto;
     height: 150px;
 }
+
 /* Logo nel header */
+
 .logo{
-    width: 150px;
+    align-self: flex-start;
     height: 150px;
 }
+
+/*Navbar settings*/
+
+.navbar{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+ul{
+    list-style: none;
+}
+
+.nav_link{
+    text-decoration: none;  
+}
+
+
+
